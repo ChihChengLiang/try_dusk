@@ -315,6 +315,8 @@ dependencies = [
 name = "try-dusk"
 version = "0.1.0"
 dependencies = [
+ "dusk-bls12_381",
+ "dusk-bytes",
  "dusk-jubjub",
  "dusk-plonk",
  "rand_core",

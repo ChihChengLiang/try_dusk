@@ -10,3 +10,5 @@ edition = "2018"
 dusk-plonk = {path="../plonk", features=["trace-print"]}
 dusk-jubjub = "0.10.0"
 rand_core = "0.6.2"
+dusk-bytes = "0.1"
+dusk-bls12_381 = {version = "0.8", default-features = false, features = ["groups", "pairings", "endo"]}
